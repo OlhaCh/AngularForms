@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./basicform.component.css']
 })
 export class BasicformComponent implements OnInit {
-
+languages = ['English', 'Spanish', 'Other'];
   constructor() { }
 
   ngOnInit() {
